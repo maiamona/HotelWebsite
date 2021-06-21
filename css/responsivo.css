@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 321px){
+@media (min-width: 0) and (max-width: 425px){
 #navbar .container {
     display: flex;
     flex-direction: column;
