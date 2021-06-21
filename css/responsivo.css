@@ -1,0 +1,12 @@
+@media (min-width: 320px) and (max-width: 321px){
+#navbar .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: column;  
+}
+}
