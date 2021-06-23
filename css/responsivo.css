@@ -12,7 +12,8 @@
 
 #home-info{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    height: 889px;   
 }
 
 #home-info .info-img, #home-info .info-content{
@@ -33,4 +34,68 @@
 .box{
     width: 100%;
 }
+
+#showcase {
+    height: 498px;
 }
+
+#showcase .showcase-content h1 {
+    font-size: 2.5em;
+}
+
+#about-info .info-left {
+    width: 100%;
+    min-height: 50%;
+}
+
+#about-info .info-left p{
+text-align: justify;
+}
+
+
+
+#about-info .info-right {
+    float: left;
+    width: 100%;
+    min-height: 50%;
+}
+
+#testimonials .testimonial img {
+    float: none;
+    margin-left: 32%;
+}
+
+#testimonials {
+    height: 1001px;
+}
+
+#contact-form h1{
+    text-align: center;
+}
+
+#contact-info .container .contact{
+    border-bottom: 2px solid #fff;
+}
+}
+
+@media (max-width: 320px){
+    #showcase .showcase-content h1 {
+        font-size: 1.5em;
+    }
+
+    #about-info .info-left h1{
+        font-size: 1.5em;
+        text-align: center;
+        }
+
+    #showcase {
+        height: 592px;
+    }
+
+    #testimonials {
+        height: 1164px;
+    }
+}
+
+
+
